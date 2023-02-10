@@ -7,4 +7,4 @@ Basic Maven commands to run tests:
 
 Basic Git commands to setup environment:
 ----------------------------------------
-. git pull origin master --allow-unrelated-histories
+1. git pull origin master --allow-unrelated-histories
