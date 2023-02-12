@@ -11,19 +11,20 @@ Basic Git commands to setup environment:
 2. git config --global user.name "My Name"
 3. git config --global user.email "myemail@example.com"
 4. git config --global color.ui true
-5. git remote add https://github.com/username/project.git
-6. git add .
-7. git commit -m "Adding file for test purposes only."
-8. git status
+5. git remote -v
+6. git remote add https://github.com/username/project.git
+7. git add .
+8. git commit -m "Adding file for test purposes only."
+9. git status
 
-9. Unstage all the staged files
-   git reset
+10. Unstage all the staged files
+    git reset
 
-10. Already committed a bunch of unwanted files, you can unstage them and tell git to mark them as deleted (without actually deleting them)
-   git rm --cached -r .
+11. Already committed a bunch of unwanted files, you can unstage them and tell git to mark them as deleted (without actually deleting them)
+    git rm --cached -r .
    
-11. The “fatal: refusing to merge unrelated histories” Git error occurs when two unrelated projects are merged 
-   git pull origin master --allow-unrelated-histories
+12. The “fatal: refusing to merge unrelated histories” Git error occurs when two unrelated projects are merged 
+    git pull origin master --allow-unrelated-histories
 
 Generate Allure report:
 -----------------------
